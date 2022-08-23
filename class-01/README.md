@@ -1,12 +1,14 @@
 
 
-Steps to set up Truffle Development
+# Steps to set up Truffle Development
 
-Configuration: Configuring truffle-config.js 
+## Configuration: Configuring truffle-config.js 
 
-# truffle init
-# yarn init
-# yarn add @truffle/hdwallet-provider
+```sh
+truffle init
+yarn init
+yarn add @truffle/hdwallet-provider
+```
 
 - @truffle/hdwallet-provider creates the ethereum account under which we will deploy our contracts.
 
@@ -14,10 +16,14 @@ Configuration: Configuring truffle-config.js
 
 - We installed ganache-cli to create a local testnet.
 
-# yarn add ganache-cli
+```sh
+yarn add ganache-cli
+```
 
 - And created the script to run ganache-cli on the package.json file.
 
 - Run network script to check if the configuration is ok.
 
-# truffle networks
+```sh
+truffle networks
+```
