@@ -26,8 +26,8 @@ truffle compile
 
 There are 2 important parameters:
 
-Bytecode: Machine level code that is deployed to the EVM
-ABI: Used to create interfaces to the contract on the EVM
+ - Bytecode: Machine level code that is deployed to the EVM
+ - ABI: Used to create interfaces to the contract on the EVM
 
 ## Homework:
 
