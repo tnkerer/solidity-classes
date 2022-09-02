@@ -44,8 +44,8 @@ truffle run verify JaumCoin --network goerli
 
 2. Verify the contract on etherscan:
 
-A. Configure `truffle-plugin-verify`;
-B. Run the verify script as in the example above;
+A. Configure `truffle-plugin-verify`;<br>
+B. Run the verify script as in the example above;<br>
 C. Try to use the `mint` and `burn` methods straight from Etherscan. 
 
 
