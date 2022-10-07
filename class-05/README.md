@@ -8,7 +8,7 @@ Overflow and underflow are two common problems that can occur when performing ar
 
 1 byte -> 8 bits
 
-00000000 -> 11111111 
+00000000 -> 11111111 <br>
 [ 0 ] -> [ 255 ] // In binary
 
 00000000 -> 0 <br>
