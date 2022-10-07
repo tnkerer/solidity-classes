@@ -1112,8 +1112,8 @@
     "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.9",
-  "updatedAt": "2022-09-09T19:06:34.910Z",
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-10-07T18:24:12.330Z",
   "devdoc": {
     "details": "Interface of the ERC20 standard as defined in the EIP.",
     "events": {

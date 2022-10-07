@@ -19,7 +19,7 @@ contract Faucet is Ownable {
     struct Airdrop {
         address claimer;
         uint256 lastTimeClaimed;
-    }
+    } // use did this because there is a 16 local variables limitation in solidity
 
     event tokenAirdropped(address indexed claimer, uint256 claimTime);
 
@@ -31,7 +31,7 @@ contract Faucet is Ownable {
     // before the pointer = argument of the mapper tokesDroped
     // after the pointer = Type of variable stored
 
-    // tokensDroped[] - is like an array
+    // tokensDroped[] - is like an array 
     // tokensDroped[address]
 
     constructor(ERC20 _token) {
@@ -47,7 +47,7 @@ contract Faucet is Ownable {
 
     // If a user tries to claim tokens within a 24 hour spam, the claimTokens method should fail
     function claimTokens() public {
-        require( currentTime() > tokensDroped[msg.sender].lastTimeClaimed + 86400, 'User claimed less than 24hrs ago');
+        require( currentTime() > tokensDroped[msg.sender].lastTimeClaimed.add(86400) , "User claimed less than 24hrs ago");
         // 24 * 60 = 1440 min
         // 1440 min * 60 = 86400 sec
         // REMEMBER: Do unit test using mocha for *days* native variable
