@@ -11,11 +11,11 @@ Overflow and underflow are two common problems that can occur when performing ar
 00000000 -> 11111111 
 [ 0 ] -> [ 255 ] // In binary
 
-00000000 -> 0
-00000001 -> 1
-00000010 -> 2
-00000011 -> 3
-00000100 -> 4
+00000000 -> 0 <br>
+00000001 -> 1 <br>
+00000010 -> 2 <br>
+00000011 -> 3 <br>
+00000100 -> 4 <br>
 
 11111111 -> 255
 
