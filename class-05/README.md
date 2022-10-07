@@ -47,9 +47,13 @@ Last but not least, a few contract constants that are public that are also very 
 
 Without these public constants, it would be impossible to label tokens on block explorers, for example. In this tutorial we will deploy a ERC20 token that have all the `Methods`, `Events` and `Constants` mentioned above.
 
+# Homework
 
-
-
+1) Try to execute the overflow.py file and make some tests with it;
+2) Try to deploy Faucet and Token contracts and do the following:
+  - Approve `Faucet` to spend `Tokens`
+  - Deposit `Tokens` to `Faucet`
+  - Claim `Tokens` from `Faucet` with a different address
 
 
 
